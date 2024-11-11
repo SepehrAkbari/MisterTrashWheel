@@ -1,3 +1,5 @@
+![Frame 4](https://github.com/user-attachments/assets/696d2ce0-7f63-4e61-9673-c02cce62bc4c)
+
 # Baltimorians & Their Trash
 ###### An analysis of litter collection data from the Mr. Trash Wheel in Baltimore's Inner Harbor
 
