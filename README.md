@@ -1,32 +1,20 @@
 # Baltimorians & Their Trash
 ###### An analysis of litter collection data from the Mr. Trash Wheel in Baltimore's Inner Harbor
 
-Welcome to the **MrTrashWheel-Analysis** project! This repository contains a detailed analysis of litter collection data from the Mr. Trash Wheel in Baltimore's Inner Harbor. The aim of this project is to understand seasonal patterns, the impact of specific events, and general trends in waste composition. Insights from this analysis can inform waste management strategies and environmental efforts in Baltimore and potentially other urban areas.
+Welcome to the **Baltimorians & Their Trash** project! This repository contains an in-depth analysis of litter collection data from the Mr. Trash Wheel in Baltimore's Inner Harbor. By examining patterns in littering habits, we aim to uncover meaningful insights into the behaviors, habits, and cultural tendencies of Baltimore’s population, as revealed through the waste they leave behind.
 
 ## Project Overview
 
-Mr. Trash Wheel is a unique initiative in Baltimore, Maryland, designed to collect trash from the Inner Harbor using a combination of solar and hydro power. This project explores data collected by Mr. Trash Wheel to investigate:
-- Seasonal and event-based changes in litter volume and composition
-- Year-over-year patterns in trash collected
-- Trends in specific waste types (e.g., cigarette butts, plastic bottles) over time
+Mr. Trash Wheel is a unique initiative in Baltimore, Maryland, designed to reduce pollution in the Inner Harbor by collecting trash using solar and hydro power. This project uses data collected by Mr. Trash Wheel to answer questions such as:
+- How do seasonal changes and specific events affect littering?
+- What waste trends emerge year-over-year?
+- Which waste types are most common and how might they relate to the lifestyle and behaviors of Baltimore residents?
 
-The project aims to answer key questions about Baltimore’s littering behavior and provide insights for targeted environmental action.
-
-## Table of Contents
-- [Data](#data)
-- [Project Objectives](#project-objectives)
-- [Analysis Summary](#analysis-summary)
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+By revealing these patterns, this analysis seeks to shed light on Baltimore’s cultural habits and offer actionable insights for targeted waste management.
 
 ## Data
 
-The data used in this project is sourced from the Baltimore Waterfront Partnership’s Mr. Trash Wheel initiative. It includes records of trash collected in different categories, recorded over several years, with information on specific dates, trash types, and seasonal contexts.
-
-Key features of the dataset:
+The data used in this project is sourced from the Baltimore Waterfront Partnership’s Mr. Trash Wheel initiative. It includes records of trash collected over several years, detailing the types and quantities of waste, alongside the dates and contexts in which they were collected. Key features of the dataset include:
 - **Date** of collection
 - **Trash type** (e.g., plastic bottles, cigarette butts, Styrofoam)
 - **Volume** of each type collected
@@ -34,32 +22,32 @@ Key features of the dataset:
 
 ## Project Objectives
 
-1. **Seasonal Patterns**: Determine how trash volume and composition change seasonally.
-2. **Holiday and Event Impact**: Analyze whether specific events or holidays, like July 4th or Christmas, influence the amount of litter collected.
-3. **Trend Analysis**: Explore trends in trash collection over multiple years, focusing on specific types of waste.
-4. **Insights for Action**: Provide insights that can help in designing effective waste management policies.
+1. **Seasonal Patterns**: Examine how littering habits vary by season and the types of trash most common in each season.
+2. **Holiday and Event Impact**: Determine whether specific events or holidays, like the 4th of July or Christmas, result in increased littering.
+3. **Trend Analysis**: Explore long-term trends, identifying shifts in littering behavior over multiple years.
+4. **Behavioral Insights**: Offer insights into Baltimore’s littering behaviors to inform more effective waste reduction policies.
 
 ## Analysis Summary
 
 This project includes the following key analyses:
 
-- **Trash Composition by Season**: Identifies which trash types are most prevalent in different seasons.
-- **Holiday and Weekend Impact**: Compares trash volumes on holidays and weekends against regular weekdays.
-- **Year-Over-Year Changes**: Investigates changes in littering behavior from year to year, highlighting any significant trends.
-- **High-Impact Waste Types**: Focuses on specific waste types (e.g., cigarette butts, plastics) that could be prioritized for intervention.
+- **Trash Composition by Season**: Identifies the types of trash most prevalent each season, highlighting any seasonal patterns in littering habits.
+- **Holiday and Weekend Impact**: Compares litter volumes on holidays and weekends against regular weekdays to gauge event-related behaviors.
+- **Year-Over-Year Changes**: Analyzes changes in waste volume and types over multiple years, identifying significant shifts in behavior.
+- **High-Impact Waste Types**: Focuses on waste types with high prevalence, such as cigarette butts and plastics, for potential policy focus.
 
-Each analysis includes plots, numeric summaries, and explanations of the data wrangling steps taken to answer specific questions.
+Each analysis includes plots, numeric summaries, and explanations of the data wrangling steps used to reveal key insights about Baltimore’s community and behaviors.
 
 ## Requirements
 
 This analysis is implemented in **R**, and the following packages are required:
 - `tidyverse`
-- `lubridate`
+- `gt`
 - `ggplot2`
 
-You can install these packages using the following command:
+You can install these packages using:
 ```r
-install.packages(c("tidyverse", "lubridate", "ggplot2"))
+install.packages(c("tidyverse", "gt", "ggplot2"))
 ```
 
 ## Usage
@@ -78,13 +66,13 @@ Each script includes detailed comments to guide you through the data cleaning, w
 
 ## Results
 
-This project includes the following results:
+This project produces the following results:
 
-1. Seasonal Analysis: Visualizations showing which seasons and holidays see higher litter volumes.
-2. Trash Type Trends: Insights into specific waste types and their seasonality.
-3. Impact Insights: Recommendations for targeted waste management strategies based on findings.
+1. Seasonal Analysis: Visualizations showing how litter volume fluctuates with the seasons and holidays.
+2. Trash Type Trends: Insights into which waste types are most common in different contexts, offering a window into common behaviors.
+3. Impact Insights: Recommendations for potential policies based on observed patterns in litter types and volumes.
 
-Sample results and key findings are presented in the Results folder.
+Sample findings are presented in the Results folder.
 
 ## Contributing
 
